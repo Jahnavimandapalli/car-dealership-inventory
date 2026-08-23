@@ -2,6 +2,7 @@ from sqlalchemy.orm import Session
 from pwdlib import PasswordHash
 
 from app.models.user import User
+from app.auth.jwt import create_access_token
 
 password_hash = PasswordHash.recommended()
 
@@ -24,3 +25,15 @@ def register_user(db: Session, email: str, password: str):
     db.refresh(user)
 
     return user
+
+
+def login_user(db: Session, email: str, password: str):
+    user = db.query(User).filter(User.email == email).first()
+
+    if not user:
+        return None
+
+    if not password_hash.verify(password, user.password_hash):
+        return None
+
+    return create_access_token(user.id)
