@@ -17,6 +17,10 @@
   <a href="https://car-dealership-inventory-7011.onrender.com/docs">
     API Documentation
   </a>
+  &nbsp; • &nbsp;
+  <a href="https://drive.google.com/file/d/1mZyn3PgW3sBOEDLGkQAtVN4emWjPtxfE/view?usp=drive_link">
+    Demo Video
+  </a>
 </p>
 
 <hr>
@@ -627,7 +631,68 @@ The frontend is deployed separately on Render as a static application using
 HTML, CSS, and JavaScript.
 </p>
 
+<h2>Demo Video</h2>
 
+<p>
+A screen recording demonstrating the completed Car Dealership Inventory
+Management System is available below.
+</p>
+
+<p>
+🎥 <strong>
+<a href="https://drive.google.com/file/d/1mZyn3PgW3sBOEDLGkQAtVN4emWjPtxfE/view?usp=drive_link">
+Watch the Project Demo Video
+</a>
+</strong>
+</p>
+
+<p>
+The video demonstrates the application's main functionality, including
+authentication, vehicle inventory operations, and the deployed application.
+</p>
+
+<h2>Screenshots</h2>
+
+<p>
+Screenshots of the completed application can be stored inside the
+<code>screenshots/</code> directory.
+</p>
+
+<h3>Login Page</h3>
+
+<p>
+<img src="screenshots/login.png" alt="Login Page">
+</p>
+
+<h3>Vehicle Dashboard</h3>
+
+<p>
+<img src="screenshots/dashboard.png" alt="Vehicle Dashboard">
+</p>
+
+<h3>Vehicle Management</h3>
+
+<p>
+<img src="screenshots/vehicles.png" alt="Vehicle Management">
+</p>
+
+<h3>Swagger API Documentation</h3>
+
+<p>
+<img src="screenshots/swagger.png" alt="Swagger API Documentation">
+</p>
+
+<p>
+Replace the screenshot filenames with the actual images added to the
+repository.
+</p>
+
+<h2>My AI Usage</h2>
+
+<p>
+I used <strong>ChatGPT</strong> as a development and learning assistant
+during different stages of the project.
+</p>
 
 <p>
 AI assistance was used for:
