@@ -21,11 +21,16 @@ app = FastAPI(
 # =========================
 # CORS CONFIGURATION
 # =========================
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
+        # Local frontend
         "http://127.0.0.1:5500",
-        "http://localhost:5500"
+        "http://localhost:5500",
+
+        # Deployed frontend
+        "https://car-dealership-frontend-y1cp.onrender.com"
     ],
     allow_credentials=True,
     allow_methods=["*"],
@@ -36,6 +41,7 @@ app.add_middleware(
 # =========================
 # ROUTERS
 # =========================
+
 app.include_router(auth_router)
 app.include_router(vehicle_router)
 
@@ -43,6 +49,7 @@ app.include_router(vehicle_router)
 # =========================
 # ROOT
 # =========================
+
 @app.get("/")
 def root():
     return {
