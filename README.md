@@ -651,41 +651,7 @@ The video demonstrates the application's main functionality, including
 authentication, vehicle inventory operations, and the deployed application.
 </p>
 
-<h2>Screenshots</h2>
 
-<p>
-Screenshots of the completed application can be stored inside the
-<code>screenshots/</code> directory.
-</p>
-
-<h3>Login Page</h3>
-
-<p>
-<img src="screenshots/login.png" alt="Login Page">
-</p>
-
-<h3>Vehicle Dashboard</h3>
-
-<p>
-<img src="screenshots/dashboard.png" alt="Vehicle Dashboard">
-</p>
-
-<h3>Vehicle Management</h3>
-
-<p>
-<img src="screenshots/vehicles.png" alt="Vehicle Management">
-</p>
-
-<h3>Swagger API Documentation</h3>
-
-<p>
-<img src="screenshots/swagger.png" alt="Swagger API Documentation">
-</p>
-
-<p>
-Replace the screenshot filenames with the actual images added to the
-repository.
-</p>
 
 <h2>My AI Usage</h2>
 
